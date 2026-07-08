@@ -28,16 +28,18 @@ text-align: left;
 font-size: large;}
 
 header{display: flex;
-    justify-content: space-between;
     align-items: center;
     padding:20px 40px;
     text-align: center;
 background-color: #FFFFB3;}
 nav{display:flex;
-gap: 30px;
+    margin-left:160px;
+    display: flex;
+    gap: 90px;
 }
 nav a{text-decoration: none;
 color:black;
+font-size: x-large;
 font-weight: 600;}
 #form{color: darkgoldenrod;
 font-size: large;
