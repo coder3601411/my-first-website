@@ -1,8 +1,9 @@
-h1{color:black}
+h1{color:black;
+text-align: start;}
 #openingstatement{color: #FFD54F;}
 
 body{background-color:#DDC8C4;
-background-image: ;
+    margin: 0;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -22,7 +23,8 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
 font-size: large;}
 
 header{text-align: center;
-background-color: #ffffff;}
+background-color: #ffffff;
+padding:20px;}
 #form{color: darkgoldenrod;
 font-size: large;
 text-align: center;
