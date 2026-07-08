@@ -16,7 +16,6 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 
-
 p{ 
 font-size: large;
 font-weight: 900;
@@ -28,9 +27,18 @@ text-align: left;
 #specifics{ 
 font-size: large;}
 
-header{text-align: center;
-background-color: #FFFFB3;
-padding:20px;}
+header{display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px 40px;
+    text-align: center;
+background-color: #FFFFB3;}
+nav{display:flex;
+gap: 30px;
+}
+nav a{text-decoration: none;
+color:black;
+font-weight: 600;}
 #form{color: darkgoldenrod;
 font-size: large;
 text-align: center;
