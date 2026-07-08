@@ -1,6 +1,14 @@
 h1{color:black;
 text-align: start;}
-#openingstatement{color: #FFD54F;}
+#openingstatement{z-index: 10;
+    position: relative;
+    font-size: 30px;
+    font-weight: 500;
+    color: var(--foreground-intense);
+    margin: 1rem 0 4rem 0;
+    letter-spacing: -0.3px;
+    text-wrap: balance;
+    text-align: center;}
 
 body{background-color:#ffffff;
     margin: 0;
@@ -9,17 +17,15 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 
 
-p{color: plum; 
+p{ 
 font-size: large;
-font-style: italic;
 font-weight: 900;
 font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-#about{color:st;
+#about{ 
 text-align: left;
-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-#specifics{color: rgb(132, 255, 0);
+ }
+#specifics{ 
 font-size: large;}
 
 header{text-align: center;
