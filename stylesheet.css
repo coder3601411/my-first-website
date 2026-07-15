@@ -3,8 +3,29 @@
   box-sizing: border-box;}
 @font-face{
     font-family:"stylish1" ;
-    src: url(fonts/CopyrightHouseIndustries.ttf);
+    src: url(fonts/CopyrightHouseIndustries.ttf)
     format("truetype");
+}
+@font-face {
+    font-family: "solid";
+    src: url(fonts/Clickuper.ttf)
+    format("truetype");
+}
+
+.intro{width: 100%;
+    height: 100vh;
+    background-image: url("images/newintro.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+display: flex;
+flex-direction: column;
+opacity: 1;
+animation: fadeIn;
+animation-delay: 0.8s;
+justify-content: center;
+align-items: center;
+color: aliceblue;
 }
 
 h1{ 
@@ -20,8 +41,35 @@ text-align: start;}
     text-align: center;}
 #past{margin-left: auto;
     font-family: "stylish1",sans-serif ;
-font-size: xx-large;}
-body{background-image: url("images/ChatGPT\ Image\ Jul\ 15\,\ 2026\,\ 12_56_26\ PM.png");
+font-size: xx-large;
+}
+.pvd{font-family: solid;
+font-size: xx-large;
+opacity: 0;
+animation: fadeUp 1.2s ease forwards;
+ animation-delay: 0.4s;}
+.logo{ 
+    opacity: 1;
+animation:  fadeUp 1.2s ease forwards;}
+
+@keyframes fadeUp{
+    from{
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    to{ opacity: 1;
+    transform: translateY(0);
+    }
+}
+
+body{transition: opacity 1s ease;
+}
+
+body.fade-out{opacity: 0;}
+
+
+
+.homepage{background-image: url("images/ChatGPT\ Image\ Jul\ 15\,\ 2026\,\ 12_56_26\ PM.png");
      background-size: cover;
      color: aliceblue;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -65,7 +113,7 @@ nav a{text-decoration: none;
  ;
 font-size: x-large;
 font-weight: 600;}
-#form{color: black;
+#form{color: goldenrod;
 font-size: large;
 text-align: center;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
