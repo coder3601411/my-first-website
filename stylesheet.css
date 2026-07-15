@@ -1,6 +1,12 @@
 *{margin: 0;
   padding:0;
   box-sizing: border-box;}
+@font-face{
+    font-family:"stylish1" ;
+    src: url(fonts/CopyrightHouseIndustries.ttf);
+    format("truetype");
+}
+
 h1{ 
 text-align: start;}
 #openingstatement{z-index: 10;
@@ -12,7 +18,9 @@ text-align: start;}
     letter-spacing: -0.3px;
     text-wrap: balance;
     text-align: center;}
-#past{margin-left: auto; ;}
+#past{margin-left: auto;
+    font-family: "stylish1",sans-serif ;
+font-size: xx-large;}
 body{background-image: url("images/ChatGPT\ Image\ Jul\ 15\,\ 2026\,\ 12_56_26\ PM.png");
      background-size: cover;
      color: aliceblue;
